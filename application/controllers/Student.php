@@ -55,6 +55,7 @@ class Student extends CI_Controller{
 	public function delete()
 	{
 		$id=$this->uri->segment(3);
+		//njbghbvghvhgvgh
 		if(empty($id))
 		{
 			show_404();
